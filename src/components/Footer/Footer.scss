@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.footer {
+    // margin-top: 150px;
+  .footer-container {
+    height: 100%;
+    // margin: 36px 220px 36px 220px;
+    margin-left: 220px;
+    margin-right: 220px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .main-footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+        margin-bottom: 0;
+      .logo-stuff {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 45px;
+        flex-wrap: wrap;
+
+        img {
+          margin-top: 0;
+        }
+        .socials {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          gap: 54px;
+          flex-wrap: wrap;
+          a{
+            text-decoration: none;
+            color: black;
+          }
+        }
+      }
+      
+
+        .pages,.contact {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          h3 {
+            color: var(--blue, #00487c);
+            font-family: "Open Sans", sans-serif;
+          }
+          ul {
+            padding-left: 0;
+            li {
+              list-style-type: none;
+              font-family: "Open Sans", sans-serif;
+              font-weight: 400;
+              margin-bottom: 10px;
+              a{
+                text-decoration: none;
+                color: black;
+              }
+            }
+          }
+        }
+       
+    }
+    p {
+      text-align: left;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+    }
+  }
+}
